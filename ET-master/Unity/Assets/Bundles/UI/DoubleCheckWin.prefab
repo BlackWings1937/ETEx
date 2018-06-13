@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 222346712064028888}
   - component: {fileID: 114405157871798664}
   m_Layer: 5
-  m_Name: Text
+  m_Name: TextBtnCancle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ GameObject:
   - component: {fileID: 222478661806642456}
   - component: {fileID: 114868547639682754}
   m_Layer: 5
-  m_Name: Text
+  m_Name: TextBtnOk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -411,6 +411,10 @@ MonoBehaviour:
     gameObject: {fileID: 1106472444237616}
   - key: BtnCancle
     gameObject: {fileID: 1722442249247890}
+  - key: TextBtnOk
+    gameObject: {fileID: 1262934588065794}
+  - key: TextBtnCancle
+    gameObject: {fileID: 1106497577415308}
 --- !u!222 &222346712064028888
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -482,10 +486,10 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 400, y: 300}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224511890622122288
 RectTransform:
@@ -574,8 +578,8 @@ RectTransform:
   m_Father: {fileID: 224452760136308532}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 400, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
